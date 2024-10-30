@@ -1,0 +1,12 @@
+/* Bx Carousel tinyMCE style*/
+i.mce-i-my-mce-icon {
+    background-image: url('icon/owl-logo.png');
+}
+
+.mce-widget.mce-btn.mce-tuneMCE-button.mce-menubtn.mce-last{
+	border:1px solid #ff0000 !important;
+}
+
+.mce-window.mce-container.mce-myAwesomeClass-panel .mce-container-body.mce-abs-layout {
+    overflow: hidden !important;
+}

@@ -1,0 +1,136 @@
+/* Bx Carousel theme one*/
+.owl-carousel .owl-nav {
+	opacity:0; 
+	visibility:hidden;
+	transition:all 0.3s ease 0s;
+}
+.owl-carousel:hover .owl-nav {
+	opacity:1;
+	visibility:visible;
+	transition:all 0.3s ease 0s;
+}
+.owl-carousel .owl-buttons{}
+.owl-carousel .owl-nav div {
+	background: #2c3e50 none repeat scroll 0 0;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 5px;
+	padding: 2px 10px;
+}
+.owl-carousel .owl-nav div:hover {
+	background: #34495e none repeat scroll 0 0;
+	transition:all 0.3s ease 0s
+}
+.owl-carousel .owl-nav div.owl-prev {
+	height: 31px;
+	left: -6px;
+	margin-left: -10px;
+	margin-top: -15px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 12px;
+}
+.owl-carousel .owl-nav div.owl-prev::after {
+  background: #2c3e50 none repeat scroll 0 0; 
+  color: #fff;
+  content: "PREV";
+  display: inline-block;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 13px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 0px;
+  opacity:0;
+  transition: all 0.2s ease-out;
+  visibility:hidden;
+  overflow: hidden;
+  left:18px;
+}
+.owl-carousel .owl-nav div.owl-prev:hover:after{
+	 opacity:1;
+	 background: #34495e none repeat scroll 0 0;
+	 transition: all 0.3s ease-out;
+	 width: 50px;
+	 visibility:visible;
+}
+.owl-carousel .owl-nav div.owl-next::before {
+  background: #2c3e50 none repeat scroll 0 0;
+  color: #fff;
+  content: "NEXT";
+  display: inline-block;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 16px;
+  opacity: 0;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  top: 0;
+  width: 0;
+  transition: all 0.2s ease-out;
+    visibility:hidden;
+	overflow: hidden;
+}
+  .owl-carousel .owl-nav div.owl-next:hover:before{
+	  opacity:1;
+	 background: #34495e none repeat scroll 0 0;
+	 transition: all 0.2s ease-out;
+	 width: 50px;
+	 visibility:visible;
+  }
+.owl-carousel .owl-nav div.owl-next {
+	height: 31px;
+	margin-top: -15px;
+	position: absolute;
+	right: -20px;
+	text-align: center;
+	top: 50%;
+	width: 12px;
+}
+.owl-carousel .owl-controls .owl-buttons div i{}
+.owl-carousel .owl-controls .owl-buttons div i.fa-angle-left{}
+.owl-carousel .owl-controls .owl-buttons div i.fa-angle-right{}
+
+.owl-carousel.owl-pagination{
+	text-align:center;
+	display:block;
+}
+.owl-carousel .owl-pagination div.owl-page {
+	height:10px;
+	width:10px;
+	background:#ddd;
+	border-radius:500px;
+	display:inline-block;
+	margin-right:5px;
+	
+	
+}
+.owl-carousel .owl-pagination div.owl-page.active{
+	background:#8e44ad;
+}
+.owl-carousel .owl-pagination div.owl-next {
+	
+}
+.owl-carousel .owl-dots {
+  padding: 10px 0;
+  text-align: center;
+}
+.owl-carousel .owl-dots div.owl-dot {
+	width:10px;
+	height:10px;
+	border-radius:500px;
+	background:#2c3e50;
+	display:inline-block;
+	margin-right:5px;
+	
+}
+.owl-carousel .owl-dots div.owl-dot.active {
+	background:#95a5a6 !important;
+	
+}
